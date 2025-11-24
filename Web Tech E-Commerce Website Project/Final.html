@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sakura Teriyaki Grill | Jacksonville, FL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo-area">
+    <h1>Sakura Teriyaki Grill</h1>
+    <p class="tagline">Fresh Japanese flavors in Jacksonville, FL</p>
+  </div>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order Online</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Teriyaki. Rice. Refreshment.</h2>
+      <p>
+        Enjoy tender teriyaki chicken with fluffy white rice, crisp veggies, and an ice-cold Powerade.
+        Order online for pickup or dine in with us on the Southside of Jacksonville.
+      </p>
+      <a class="btn primary-btn" href="order.html">Order Teriyaki Combo</a>
+    </div>
+    <div class="hero-image">
+      <!-- Replace hero.jpg with your own image in /media -->
+      <img src="media/teriyaki.jpg" alt="Teriyaki chicken with white rice and vegetables">
+    </div>
+  </section>
+
+  <!-- Featured items -->
+  <section class="featured">
+    <h2>Customer Favorites</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Teriyaki Chicken Bowl</h3>
+        <p>Grilled chicken glazed with house teriyaki sauce, served over steamed white rice.</p>
+        <p class="price">$10.99</p>
+      </article>
+      <article class="card">
+        <h3>Powerade® Upgrade</h3>
+        <p>Add a 20oz Powerade to any bowl or combo for a refreshing boost.</p>
+        <p class="price">$2.49</p>
+      </article>
+      <article class="card">
+        <h3>Sakura Combo</h3>
+        <p>Teriyaki chicken, veggie stir-fry, white rice, and your choice of beverage.</p>
+        <p class="price">$14.99</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Hours table (uses table requirement) -->
+  <section class="hours">
+    <h2>Hours & Location</h2>
+    <div class="hours-layout">
+      <table class="hours-table">
+        <caption>Restaurant Hours</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Tuesday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Wednesday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Thursday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Friday</td><td>11:00 AM – 10:00 PM</td></tr>
+          <tr><td>Saturday</td><td>12:00 PM – 10:00 PM</td></tr>
+          <tr><td>Sunday</td><td>12:00 PM – 8:00 PM</td></tr>
+        </tbody>
+      </table>
+      <div class="location-info">
+        <h3>Jacksonville Location</h3>
+        <p>123 Sakura Way<br>Jacksonville, FL 32256</p>
+        <p><strong>Phone:</strong> (904) 555-0123</p>
+        <p><strong>Parking:</strong> Free parking available in front of the restaurant.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media section: video + audio -->
+  <section class="media">
+    <h2>See & Hear Sakura</h2>
+    <div class="media-grid">
+      <div>
+        <h3>Restaurant Tour</h3>
+        <!-- Replace promo.mp4 with a real video in /media -->
+        <video controls width="100%">
+          <source src="media/promo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div>
+        <h3>Dining Ambience</h3>
+        <!-- Replace ambience.mp3 with a real audio file in /media -->
+        <audio controls>
+          <source src="media/ambience.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Preview the calm ambiance and background music while you enjoy your meal.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Sakura Teriyaki Grill · Jacksonville, FL · Class Project Only</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
