@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teriyaki Grill | Jacksonville, FL</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="logo-area">
+    <h1>Teriyaki Grill</h1>
+    <p class="tagline">Fresh Japanese flavors in Jacksonville, FL</p>
+  </div>
+  <nav class="main-nav">
+    <a href="Final.html" class="active">Home</a>
+    <a href="Menu.html">Menu</a>
+    <a href="Order.html">Order Online</a>
+    <a href="About.html">About Us</a>
+    <a href="Contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Teriyaki. Rice. Refreshment.</h2>
+      <p>
+        Enjoy tender teriyaki chicken with fluffy white rice, crisp veggies, and an ice-cold Powerade.
+        Order online for pickup or dine in with us on the Southside of Jacksonville.
+      </p>
+      <a class="btn primary-btn" href="Order.html">Order Teriyaki Combo</a>
+    </div>
+    <div class="hero-image">
+      <!-- Use your own image file here, saved in the same folder -->
+      <img src="teriyaki.jpg" alt="Teriyaki chicken with white rice and vegetables">
+    </div>
+  </section>
+
+  <!-- Featured items -->
+  <section class="featured">
+    <h2>Customer Favorites</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>Teriyaki Chicken Bowl</h3>
+        <p>Grilled chicken glazed with house teriyaki sauce, served over steamed white rice.</p>
+        <p class="price">$10.99</p>
+      </article>
+      <article class="card">
+        <h3>Powerade® Upgrade</h3>
+        <p>Add a 20oz Powerade to any bowl or combo for a refreshing boost.</p>
+        <p class="price">$2.49</p>
+      </article>
+      <article class="card">
+        <h3>Teriyaki Grill Combo</h3>
+        <p>Teriyaki chicken, veggie stir-fry, white rice, and your choice of beverage.</p>
+        <p class="price">$14.99</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Hours table -->
+  <section class="hours">
+    <h2>Hours & Location</h2>
+    <div class="hours-layout">
+      <table class="hours-table">
+        <caption>Restaurant Hours</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Monday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Tuesday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Wednesday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Thursday</td><td>11:00 AM – 9:00 PM</td></tr>
+          <tr><td>Friday</td><td>11:00 AM – 10:00 PM</td></tr>
+          <tr><td>Saturday</td><td>12:00 PM – 10:00 PM</td></tr>
+          <tr><td>Sunday</td><td>12:00 PM – 8:00 PM</td></tr>
+        </tbody>
+      </table>
+      <div class="location-info">
+        <h3>Jacksonville Location</h3>
+        <p>123 Teriyaki Way<br>Jacksonville, FL 32256</p>
+        <p><strong>Phone:</strong> (904) 555-0123</p>
+        <p><strong>Parking:</strong> Free parking available in front of the restaurant.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media section: video + audio -->
+  <section class="media">
+    <h2>See & Hear Teriyaki Grill</h2>
+    <div class="media-grid">
+      <div>
+        <h3>Restaurant Tour</h3>
+        <!-- Save promo.mp4 in the same folder or change the filename -->
+        <video controls width="100%">
+          <source src="promo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div>
+        <h3>Dining Ambience</h3>
+        <!-- Save ambience.mp3 in the same folder or change the filename -->
+        <audio controls>
+          <source src="ambience.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Preview the calm ambiance and background music while you enjoy your meal.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Teriyaki Grill · Jacksonville, FL · Class Project Only</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
